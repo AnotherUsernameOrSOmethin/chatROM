@@ -1,0 +1,12 @@
+    {{#each content}}
+    <p id="msgObj">
+        <select class="linkSel">///
+            <option value="none" selected disabled hidden></option>
+            <option id="msgOpt" value="/profile?id={{this.id}}">profile</option>
+            <option id="msgOpt" value="/msgDel?id={{this.msg_id}}">delete</option>
+        </select>
+
+        {{this.user}}: {{this.msg_txt}}
+
+    </p>
+    {{/each}}

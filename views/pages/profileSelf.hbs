@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/public/css/fancy.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="profile">
+        <form>
+            <h2><input type="text" placeholder="{{this.name}}"></h2>
+            <p><input type="text" placeholder="{{this.name}}"></p>
+            <br>
+            <p><input type="text" placeholder="add tags"></p>
+            <ul>
+                {{#each this.tags}}
+                <li><a href="/tagDel?id={{this.tag}}"></a>{{tag}}</li>
+                {{#each/}}
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

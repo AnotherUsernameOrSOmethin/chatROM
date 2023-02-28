@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'bruh';
+    src: url(font/GoodRetro.ttf);
+}
+
+/*============================================================================================*/
+
+body{
+    color: white;
+    background-color: rgb(43, 30, 128);
+    font-family: 'bruh';
+    font-size: large;
+    padding: 8px;
+    margin: 0;
+}
+
+.content {
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.content p {
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 30, 128);
+    padding:8px;
+    width: fit-content;
+    word-wrap: break-word;
+}
+
+::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#taskbar {
+    position: fixed;
+    bottom: 10px;
+}
+
+#btnMain {
+    font-family: 'bruh';
+    font-size: 16px;
+    max-width: 128px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 30, 128);
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+#btnMain:hover {
+    background-color: rgb(43, 30, 128);
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    cursor: pointer;
+}
+
+a {
+    font-family: 'bruh';
+    font-size: 16px;
+    max-width: 128px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 30, 128);
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(43, 30, 128);
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+#inpMsg {
+    font-family: 'bruh';
+    width: 50vw;
+    height: auto;
+    background-color: rgb(43, 30, 128);
+    color: white;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+#inpLogReg {
+    font-family: 'bruh';
+    width: 16vw;
+    height: auto;
+    background-color: rgb(43, 30, 128);
+    color: white;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+#btnSubmit {
+    font-family: 'bruh';
+    max-width: 128px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 30, 128);
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+/*============================================================================================*/
+
+
+
+#🎂 {
+    font-family: 'bruh';
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 30, 128);
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.linkSel {
+    font-family: 'bruh';
+    width: 16px; height: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 30, 128);
+    border: none;
+}
+
+.linkSel:focus, .linkSel:focus-visible {border: none;}
+
+#msgOpt {
+    font-family: 'bruh';
+    width: auto; height: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 30, 128);
+    border: solid, white, 5px;
+}
+
+/*============================================================================================*/
+

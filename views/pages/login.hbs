@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/fancy.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/usrDatCheck" method="POST">
+    <label>username</label>
+    </br>
+    <input id="inpLogReg" name="username" required autocomplete="off">
+    </br>
+    </br>
+    <label>password</label>
+    </br>
+    <input id="inpLogReg" name="password" type="password" required>
+    </br>
+    </br>
+    <button id="btnMain">log in</button>
+    </form>
+    <a id="btnLink" href="/register">i'm accountless</a>
+    <br><br>
+    <p>{{error}}</p>
+</body>
+<script src="/js/clientApp.js"></script>
+</html>
